@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: black;
+}
+
+.content {
+    width: 100vw;
+    height: 85vh;
+
+    background-image: url("./login-pictures/background-img.jpg");
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 150px;
+    height: 250px;
+
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    width: 15.5rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    margin-right: 30px;
+}
+
+.lang-scrolldown-menu {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+
+.lang-scrolldown-menu option {
+    background-color: grey;
+}
+
+.login-button {
+    width: 7.5rem;
+    height: 2.5rem;
+
+    border: 1px solid black;
+    border-radius: 3px;
+
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.855);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    background-color: rgb(237, 0, 0);
+}
+
+.content-items {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    gap: 10px;
+}
+
+form {
+    background-color: rgba(22, 21, 21, 0.8);;
+
+    width: 30rem;
+    height: 28rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 30px;
+
+    gap: 25px;
+}
+
+.form-header {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.email-holder, .password-holder{
+    height: 2.5rem;
+
+    padding: 10px;
+}
+
+.submit-button, .email-holder, .password-holder {
+    width: 100%;
+}
+
+.remember-me-check-and-need-help {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.submit-button {
+    height: 3rem;
+
+    border: 1px solid red;
+    border-radius: 3px;
+
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
