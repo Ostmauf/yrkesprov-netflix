@@ -22,7 +22,8 @@ body {
     height: 85vh;
 
     background-image: url("./login-pictures/background-img.jpg");
-
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
