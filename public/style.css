@@ -19,7 +19,7 @@ body {
     width: 100vw;
     height: 70vh;
 
-    background-image: url("./pictures/background-img.jpg");
+    background-image: url("./pictures-global/background-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 

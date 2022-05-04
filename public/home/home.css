@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trailer-video {
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+}
+
+.content {
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 150px;
+    height: 250px;
+
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    width: 14rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    margin-right: 30px;
+}
+
+.lang-scrolldown-menu {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+
+.lang-scrolldown-menu option {
+    background-color: grey;
+}
+
+.login-button {
+    
+    width: 100px;
+    height: 30px;
+
+    border: 1px solid black;
+    border-radius: 3px;
+
+    background-color: rgba(255, 0, 0, 0.855);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    background-color: rgb(237, 0, 0);
+}
