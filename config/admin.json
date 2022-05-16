@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "netflix-teoriprov",
+  "private_key_id": "2848ac98d288c49ad0ec55e7fc72c43408cc0d46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD3bOKwZRbBrmBF\npC1z3rFlV1kixG0LZ7Ta2aEhGxjLCgRE5Lww/5SM4yw44wmvVUsS56omD+UjLlMf\nxrYgO9zc69dxbMxs1/oH64bQttoRWIFU0YVHgyCb3wbCVJEdjgmbGNTXp/mlJTXL\nLsC/XxetEu7zTzztteK0B0U85VgDJQNb0vURydQThJ7G2iNPpMKed1iqsZeM5CZd\nN1W9FR2zbKl63qfUddZbqnDjox+cNTNqFyW3w1fL0upwKKcU/JB2eOIib0PwbBkD\ntM+Cw9mydKWffkjR7tRdMyF6Re5uPMYdd16fEaPaKLCrvVlGMoFGLhnu7e8quwA2\nTwGOQczhAgMBAAECggEANFV9pV3ccF8X0eMmEgoab5sIKYhuoCjxYhECOeRnXBrk\nSEYxYBPPMfWjFu0+0S0zUe5aWO6nwsc7oc8AGtVOpBPmYAFpQ+Ry6FXzEBZ9DYow\n4OXoUPX1YcLMxTHp99xhP8MC0hKfhUTXmgBrmI7ejSciD6jE9GqyZu3awUSpVxCE\nq5WdH1gDkfxAaT3uSTC57jIWfS7B9kgcEhPyrYh1t+9Rq5eMlIawEPxzzgtqjc1q\nOcQcg62XPedZsLHRRHq87DENDSzV1L3q/rwXrWb1FhicT9HUWqqDiI0OpxEu9dRS\n9yiO2Szbf/GM45BlZT4SEKCSSicJOZgieTeK5esd+QKBgQD8AxVD7U954KRkxjm6\nUE7cLe+5WRFXYUEipZaUjGMoRtWaPWoKmTX3VgazKaqM3/b6oO5BtbLueLYKOHZT\nyyoHFP11kGs8+gTEQCMUwz2ca8pWn4fa1xmPwv0E2zaTSMe3OoDNFJtA7t+kf7Wf\nSv4mEXKJUR85vn2tLPC0rruaAwKBgQD7VzislOzyQyF7+oajTEDmbCvJu/oq4Fxj\nJ7oUFUSbQd+bsGBVWoKtM7m9dW7d1vKwLSzDgjp2x00MGJsha4Hq35SXVmdm7cPu\n67K0jWQjjKnlD5VvCrMGa5Z9wmkI8jQ4vnrMKZYHFSabuEAlbu7uKNPjcwxwfVDJ\nwmDF2M06SwKBgQCpO8DKDtDyPYLoEZ2umkN65HY5d7CHh03gYGaQdv4XjAnhPCC7\n4Us2P1Tcd7yKQdRvVibphYUVU4absnLzrlkYzGWwzzzUg+kziQaF6N607kXAif0H\nXq9RtVWIL1Wk7pj/WJAqKA5iOoeAxipHQGsPUWQjBpD7jAqFgspZ64Ub1QKBgH2A\n5y7eSpcKSG0VAygFip7EwvTAJcJFODzW+IbQu+pe8V5XqzLTuE7udkARpKOnkpXA\naQrTO4hWKrXwj34Xpc73h8YuAgIWlfD2xsx7kdZihe94YaEKEa0SChqP+kzaTJNN\nIhpSZbTxrc6yKW3HwA0yW+PGbh65pJ6qrhH9GTWTAoGBAKvp1A0DShAMKVhMOIm3\n0YDcDAkppUK9U2Sw9zZ3NQ5DiJgR/8jEsKKQOquEdrtSr2oTJxCHeeDniaGs5toR\nTieQ/QVTHBi+ZdsfbjIeQW9MhIU2Emvf4fClE+OekZiX9+A38wv3V2MQDSwNsbzu\n4UQW7D/nBosJMsNxBKJ1P4Xw\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ssatb@netflix-teoriprov.iam.gserviceaccount.com",
+  "client_id": "112329294342408489293",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ssatb%40netflix-teoriprov.iam.gserviceaccount.com"
+}

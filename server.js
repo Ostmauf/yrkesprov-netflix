@@ -1,3 +1,5 @@
+const {db, auth} = require("./config/FBconfig.js")
+
 const express = require("express");
 const server = express();
 
@@ -12,4 +14,6 @@ server.post("/email", (req, res) => {
     console.log(req.body);
 });
 
-
+console.log(db)
+console.log("---------------------------------------------------------")
+console.log(auth)
