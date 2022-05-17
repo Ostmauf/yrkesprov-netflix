@@ -17,6 +17,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+const path = require("path");
 const {db, auth} = require("./config/FBconfig.js");
 const {getAuth, signInWithEmailAndPassword} = require("firebase/auth");
 const cookieParser = require("cookie-parser");
@@ -39,13 +40,32 @@ server.listen("3000", () => {
     console.log("Server is up!")
 });
 
-server.post("/email", decodeIDToken, (req, res, next) => {
+server.post("/email", (req, res, next) => {
     signInWithEmailAndPassword(getAuth(), req.body.email, req.body.password)
     .then((user) => {
         return user.user.getIdToken();
     }).then((token) => {
         res.cookie(" ", "Bearer " + token);
+        
+        res.redirect("/home")
         next()
     })
     
+    
+});
+
+server.get("/home", decodeIDToken,(req, res) => {
+    res.sendFile(__dirname + "/public/home/" + "home.html")
+});
+
+server.get("/login", (req, res) =>  {
+    res.sendFile(__dirname + "/public/login/" + "login.html")
+});
+
+server.get("/browser", decodeIDToken,(req, res) =>  {
+    res.sendFile(__dirname + "/public/browser/" + "browser.html")
+});
+
+server.get("/index", (req, res) =>  {
+    res.sendFile(__dirname + "/public/" + "index.html")
 });

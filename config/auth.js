@@ -1,9 +1,9 @@
 const {auth} = require('./FBconfig')
-
+const path = require("path");
 const decodeIDToken = async(req, res, next)=>{
     const header = await req.headers.cookie
-if(header !== 'Bearer null' && req.headers?.cookie?.token?.startsWith('Bearer ')){
-            const idToken = req.headers.cookie.split('Bearer ')[1]
+if(header !== 'Bearer%20null' && req.headers?.cookie?.startsWith('Bearer%20')){
+            const idToken = req.headers.cookie.split('Bearer%20')[1]
             try {
                 const decodedIdToken = await auth.verifyIdToken(idToken)
                 req.currentUser = decodedIdToken
@@ -11,11 +11,13 @@ if(header !== 'Bearer null' && req.headers?.cookie?.token?.startsWith('Bearer ')
                 next()
             } catch (error) {
                 console.log(error);
-                //res.render('login')
+                res.redirect("/login")
+                //res.sendFile(path.join(__dirname, "../public/login/" + "login.html"))
             }
             }else {
                 console.log('no token');
-                //res.render('login')
+                res.redirect("/login")
+                //res.sendFile(path.join(__dirname, "../public/login/" + "login.html"))
             }
 }
 
