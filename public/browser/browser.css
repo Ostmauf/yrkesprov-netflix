@@ -57,7 +57,7 @@ body {
     flex-direction: row-reverse;
 }
 
-.add-profile {
+.add-profile, .default-profile {
     width:  280px;
     height: 250px;
 
@@ -67,12 +67,17 @@ body {
     flex-direction: column;
 }
 
-.add-profile-img:hover {
+.add-profile-img, .default-profile-img {
+    width: 200px;
+    height: 200px;
+}
+
+.add-profile-img:hover, .default-profile-img:hover {
     border-radius: 5px;
     border: 1px solid white;
 }
 
-.add-profile-button {
+.add-profile-button, .default-profile-button {
     height: 10%;
     width: 60%;
 
