@@ -5,5 +5,5 @@ defaultProfileButton.addEventListener("click", homeRedirect)
 defaultProfileImg.addEventListener("click", homeRedirect)
 
 function homeRedirect() {
-    window.location.href = "/home"
+    window.location.href = "/home";
 }

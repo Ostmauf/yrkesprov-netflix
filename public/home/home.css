@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 
-.nav img {
+.netflix-logo {
     width: 150px;
     height: 250px;
 
@@ -48,7 +48,7 @@ body {
 }
 
 .nav-buttons {
-    width: 14rem;
+    width: 20rem;
     height: 4rem;
 
     display: flex;
@@ -87,4 +87,9 @@ body {
 
 .logout-button:hover {
     background-color: rgb(237, 0, 0);
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
 }
